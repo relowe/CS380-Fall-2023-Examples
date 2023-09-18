@@ -1,0 +1,60 @@
+errors.c:1:6: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘:’ token
+    1 | Usage: gcc [options] file...
+      |      ^
+errors.c:6:86: error: expected identifier or ‘(’ before ‘[’ token
+    6 |   --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...].
+      |                                                                                      ^
+errors.c:8:8: warning: character constant too long for its type
+    8 |   (Use '-v --help' to display command line options of sub-processes).
+      |        ^~~~~~~~~~~
+errors.c:12:48: warning: missing terminating ' character
+   12 |   -dumpmachine             Display the compiler's target processor.
+      |                                                ^
+errors.c:12:48: error: missing terminating ' character
+   12 |   -dumpmachine             Display the compiler's target processor.
+      |                                                ^~~~~~~~~~~~~~~~~~~~
+errors.c:13:67: warning: missing terminating ' character
+   13 |   -print-search-dirs       Display the directories in the compiler's search path.
+      |                                                                   ^
+errors.c:13:67: error: missing terminating ' character
+   13 |   -print-search-dirs       Display the directories in the compiler's search path.
+      |                                                                   ^~~~~~~~~~~~~~~
+errors.c:14:60: warning: missing terminating ' character
+   14 |   -print-libgcc-file-name  Display the name of the compiler's companion library.
+      |                                                            ^
+errors.c:14:60: error: missing terminating ' character
+   14 |   -print-libgcc-file-name  Display the name of the compiler's companion library.
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~
+errors.c:17:46: warning: missing terminating ' character
+   17 |   -print-multiarch         Display the target's normalized GNU triplet, used as
+      |                                              ^
+errors.c:17:46: error: missing terminating ' character
+   17 |   -print-multiarch         Display the target's normalized GNU triplet, used as
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+errors.c:41:59: warning: missing terminating ' character
+   41 |   -B <directory>           Add <directory> to the compiler's search paths.
+      |                                                           ^
+errors.c:41:59: error: missing terminating ' character
+   41 |   -B <directory>           Add <directory> to the compiler's search paths.
+      |                                                           ^~~~~~~~~~~~~~~~
+errors.c:43:4: error: stray ‘##’ in program
+   43 |   -###                     Like -v but options quoted and commands not executed.
+      |    ^~
+errors.c:43:6: error: stray ‘#’ in program
+   43 |   -###                     Like -v but options quoted and commands not executed.
+      |      ^
+errors.c:44:45: error: expected identifier or ‘(’ before ‘do’
+   44 |   -E                       Preprocess only; do not compile, assemble or link.
+      |                                             ^~
+errors.c:45:42: error: expected identifier or ‘(’ before ‘do’
+   45 |   -S                       Compile only; do not assemble or link.
+      |                                          ^~
+errors.c:53:28: warning: multi-character character constant [-Wmultichar]
+   53 |                            'none' means revert to the default behavior of
+      |                            ^~~~~~
+errors.c:54:67: warning: missing terminating ' character
+   54 |                            guessing the language based on the file's extension.
+      |                                                                   ^
+errors.c:54:67: error: missing terminating ' character
+   54 |                            guessing the language based on the file's extension.
+      |                                                                   ^~~~~~~~~~~~~
